@@ -37,7 +37,7 @@ BaselineOfFASTHTML >> defineDependencies: spec [
 	
 	spec baseline: 'TreeSitter' with: [
 		spec
-			loads: #( 'default' );
+			loads: #( 'default' 'html');
 			repository: 'github://Evref-BL/Pharo-Tree-Sitter:main/src' ].
 	
 	spec
